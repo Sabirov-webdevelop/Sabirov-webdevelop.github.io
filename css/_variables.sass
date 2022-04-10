@@ -4,28 +4,78 @@ $light: #ffffff
 $active: #1E4C82
 $brend-first: #712F9D
 $brend-second: #C2C4EC
+$gray: #292E34
 $success: #25dbdb
 $error: #d22b4d
 
-// default
-$defaultOffset: 8px
+/**********************************************************/
+/********************* Offsets Basic **********************/
+/**********************************************************/
+$default-offset: 8px
+//1920
+$section-offset: $default-offset * 12
+$pageTitle-offset: $default-offset * 8
+$article-offset: $default-offset * 6
+$categoryTitle-offset: $default-offset * 4
+$acticleTitle-offset: $default-offset * 4
+$element-offset: $default-offset * 3
+$insideElement-offset: $default-offset * 2
+//320
+// $section-offset: $default-offset * 6
+// $pageTitle-offset: $default-offset * 4
+// $article-offset: $default-offset * 3
+// $categoryTitle-offset: $default-offset * 2
+// $acticleTitle-offset: $default-offset * 2
+// $element-offset: $default-offset * 1.5
+// $insideElement-offset: $default-offset * 1
+/**********************************************************/
+/******************** Element Sizes ***********************/
+/**********************************************************/
 $defaultRadius: 16px
 $defaultSize: 128px
-
-// offsets
-$sectionOffset: $defaultOffset * 16
-$pageHeadOffset: $defaultOffset * 12
-$articleOffset: $defaultOffset * 8
-$categoryHeadOffset: $defaultOffset * 4
-$elementOffset: $defaultOffset * 3
-$insideElementOffset: $defaultOffset * 2
-
-// effects
 $elementSize: 8px 16px
 $linkSize: 8px
 $defaultShadow: 0px 4px 12px rgba(30, 76, 130, 0.5)
 
-// fonts
+/**********************************************************/
+/*********************** Typography ***********************/
+/**********************************************************/
+$font-size-min: 12px
+$font-size-max: 16px
+
 $regular: 'Circe', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 $bold: 'Circe Bold', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 $extrabold: 'Circe ExtraBold', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+//1.125
+$font-size-name: 1.812rem
+$font-size-pagetitle: 1.625rem
+$font-size-categorytitle: 1.438rem
+$font-size-articletitle: 1.25rem
+$font-size-suptext: 1.125rem
+$font-size-subtext: 0.875rem
+//1.125 другой плагин
+// $font-size-name: 1.802rem
+// $font-size-pagetitle: 1.602rem
+// $font-size-categorytitle: 1.424rem
+// $font-size-articletitle: 1.266rem
+// $font-size-suptext: 1.125rem
+// $font-size-subtext: 0.889rem
+//1.2
+// $font-size-name: 2.488rem
+// $font-size-pagetitle: 2.074rem
+// $font-size-categorytitle: 1.728rem
+// $font-size-articletitle: 1.44rem
+// $font-size-suptext: 1.2rem
+// $font-size-subtext: 0.833rem
+
+/**********************************************************/
+/********************* Screen Sizes ***********************/
+/**********************************************************/
+$screen-max-width: 1920px
+$screen-largedesktops-width: 1399.98px
+$screen-desktops-width: 1199.98px
+$screen-tablets-width: 991.98px
+$screen-landscapephones-width: 767.98px
+$screen-portraitphones-width: 575.98px
+$screen-smallphones-width: 374.98px
+$screen-min-width: 320px

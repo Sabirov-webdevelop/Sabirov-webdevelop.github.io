@@ -1,0 +1,32 @@
+@import variables
+/**********************************************************/
+/******************** Media Queries ***********************/
+/**********************************************************/
+@mixin max
+  @media ( min-width: #{$screen-max-width} ) 
+    @content
+
+@mixin largedesktops
+  @media ( max-width: #{$screen-largedesktops-width} ) 
+    @content
+
+@mixin desktops
+  @media ( max-width: #{$screen-desktops-width} ) 
+    @content
+
+@mixin tablets
+  @media ( max-width: #{$screen-tablets-width} ) 
+    @content
+
+@mixin landscapephones
+  @media ( max-width: #{$screen-landscapephones-width} ) 
+    @content
+
+@mixin portraitphones
+  @media ( max-width: #{$screen-portraitphones-width} ) 
+    @content
+
+@mixin smallphones
+  @media ( max-width: #{$screen-smallphones-width} ) 
+    @content
+
