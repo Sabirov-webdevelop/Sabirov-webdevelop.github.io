@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/circe.css">
+    <link rel="stylesheet" href="fonts/imoc-iconfont.css">
+
+		<!-- Custom css -->
+		<link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="contacts contacts_top">
+            <div class="contacts_left">
+              <a href="#" class="contacts_link contacts_top_link-mail">shel-imoc-edu@mail.ru<i class="icon-mail"></i></a>
+            </div>
+            <div class="contacts_right">
+              <a href="#" class="contacts_link contacts_top_link-eye"><i class="icon-eye"></i>Для слабовидящих</a>
+              <a href="#" class="contacts_link contacts_top_link-map"><i class="icon-map"></i>Карта сайта</a>
+              <a href="#" class="contacts_link contacts_top_link-phone"><i class="icon-phone"></i>8 (395-50) 5-74-28</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="header_name">
+            <p>Муниципальное казённое учреждение <br>Шелеховского района</p>
+            <h1>&ldquo;Информационно-методический <br>образовательный центр&rdquo;</h1>
+          </div>
+          <div class="header_logo">
+            <img src="images/logo.svg" alt="" class="logo">
+          </div>
+        </div>
+        <div class="row">
+          <nav class="header_nav">
+            <button class="nav_btn top_menu_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"><i class="icon-menu"></i></button>
+            <ul class="top_menu">
+              <li>
+                <a href="index.html" class="menu_link top_menu_link top_menu_link-active">Главная</a>
+              </li>
+              <li>
+                <button class="menu_link top_menu_link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Направления деятельности<i class="icon-down-arrow"></i></button>
+                <ul class="dropdown-menu dropdown-menu_top" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">РМО</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Аттестация</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Инновационная деятельность</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Молодые специалисты</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Дистанционное обучение</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Воспитательная деятельность</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Психолого-педагогическое сопровождение</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Инклюзивное образование</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Лучшие педагогические практики</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Муниципальный опорный центр</a></li>
+                </ul>
+              </li>
+              <li>
+                <button class="menu_link top_menu_link dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Для обучающихся и воспитанников<i class="icon-down-arrow"></i></button>
+                <ul class="dropdown-menu dropdown-menu_top" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Всероссийская олимпиада</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Муниципальные олимпиады и конкурсы</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Программа "Шаг в будущее"</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Российское движение школьников</a></li>
+                  <li><a class="dropdown-item menu_link dropdown-menu_top_link" href="#">Межвузовская олимпиада "Золотой фонд Сибири"</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="for-teacher.html" class="menu_link top_menu_link">Для педагогов</a>
+              </li>
+              <li>
+                <a href="ppoi.html" class="menu_link top_menu_link">ППОИ (ЕГЭ и ГИА-9)</a>
+              </li>
+              <li>
+                <a href="about-us.html" class="menu_link top_menu_link">О нас</a>
+              </li>
+            </ul>
+            <div class="contacts contacts_mobile">
+              <div class="contacts_right">
+                <a href="#" class="contacts_link contacts_mobile_link-eye"><i class="icon-eye"></i>Для слабовидящих</a>
+                <a href="#" class="contacts_link contacts_mobile_link-map"><i class="icon-map"></i>Карта сайта</a>
+              </div>
+            </div>
+            <div class="dropstart search_mid">
+              <button class="nav_btn search_btn search_btn-outside dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"><i class="icon-search"></i></button>
+              <form class="search dropdown-menu">
+                <input type="text" placeholder="Поиск...">
+              </form>
+            </div>  
+            <form class="search search_full">
+              <input type="text" placeholder="Поиск...">
+              <button class="nav_btn search_btn search_btn-inside" type="button"><i class="icon-search"></i></button>
+            </form>
+          </nav>  
+        </div>
+      </div>
+    </header>
+
+    <div class="offcanvas" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas_header">
+        <h5 class="offcanvas_title" id="offcanvasLabel">Главное меню</h5>
+        <button class="nav_btn offcanvas_btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="icon-cross"></i></button>
+      </div>
+      <div class="offcanvas_body">
+        <ul class="offcanvas_menu">
+          <li>
+            <a href="index.html" class="menu_link offcanvas_menu_link offcanvas_menu_link-active">Главная</a>
+          </li>
+          <li>
+            <button class="menu_link offcanvas_menu_link dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Направления деятельности<i class="icon-down-arrow"></i></button>
+            <ul class="dropdown-menu dropdown-menu_offcanvas" aria-labelledby="dropdownMenuButton3">
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">РМО</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Аттестация</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Инновационная деятельность</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Молодые специалисты</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Дистанционное обучение</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Воспитательная деятельность</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Психолого-педагогическое сопровождение</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Инклюзивное образование</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Лучшие педагогические практики</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Муниципальный опорный центр</a></li>
+            </ul>
+          </li>
+          <li>
+            <button class="menu_link offcanvas_menu_link dropdown-toggle" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Для обучающихся и воспитанников<i class="icon-down-arrow"></i></button>
+            <ul class="dropdown-menu dropdown-menu_offcanvas" aria-labelledby="dropdownMenuButton4">
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Всероссийская олимпиада</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Муниципальные олимпиады и конкурсы</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Программа "Шаг в будущее"</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Российское движение школьников</a></li>
+              <li><a class="dropdown-item menu_link dropdown-menu_offcanvas_link" href="#">Межвузовская олимпиада "Золотой фонд Сибири"</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="for-teacher.html" class="menu_link offcanvas_menu_link">Для педагогов</a>
+          </li>
+          <li>
+            <a href="ppoi.html" class="menu_link offcanvas_menu_link">ППОИ (ЕГЭ и ГИА-9)</a>
+          </li>
+          <li>
+            <a href="about-us.html" class="menu_link offcanvas_menu_link">О нас</a>
+          </li>
+          <li>
+            <form class="offcanvas_search">
+              <input type="text" placeholder="Поиск...">
+              <button class="nav_btn offcanvas_search_btn" type="button"><i class="icon-search"></i></button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <main class="content">
+      <div class="container">
+        <div class="row row-content">
+          <div class="col-xxl-8 col-xl-9">
+            <div class="articles">
+              <article class="article">
+                <h2 class="article_category">Мероприятия для педагогов</h2>
+                <div class="article_table">
+                  <div class="table-row">
+                    <div class="table-cell">
+                      <span class="count">1</span>
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">2</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">3</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">66</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">5</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">6</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell">
+                     <span class="count">7</span> 
+                    </div>
+                    <div class="table-cell">
+                      <p>Районный заочный  конкурс «Лучшие практики профилактической работы в образовательных организациях Шелеховского района»</p>
+                    </div>
+                    <div class="table-cell">
+                      <span class="date">Октябрь 2021 года</span>
+                    </div>
+                    <div class="table-cell">
+                      <div class="buttons">
+                        <a href="" class="btn table_btn">Положение<i class="icon-chart"></i></a>
+                        <a href="" class="btn table_btn">Итоги<i class="icon-chart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>  
+          <div class="col-xxl-4 col-xl-3">
+            <div class="side-menu-wrapper">
+              <a href="" class="menu_link">
+                <div class="card card_article side_menu">
+                  <img src="images/temp-card-img1@1.jpg" alt="">
+                  <div class="card_article_text">
+                    Победители конкурсов
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="contacts">
+            <div class="contacts_left">
+              <a href="#" class="contacts_link contacts_link-mail">shel-imoc-edu@mail.ru<i class="icon-mail"></i></a>
+            </div>
+            <div class="contacts_right">
+              <a href="#" class="contacts_link contacts_link-phone"><i class="icon-phone"></i>8 (395-50) 5-74-28</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="nav_btn back_to_top_btn" type="button"><i class="icon-play"></i></button>
+
+		<!-- Bootstrap js -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<!-- Custom js -->
+		<script src="js/main.js"></script>
+
+  </body>
+</html>
